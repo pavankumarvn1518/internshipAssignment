@@ -1,12 +1,84 @@
-# React + Vite
+# ✨ React Skincare Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive skincare landing page built with **React 19**, **Vite**, **Tailwind CSS**, **GSAP**, **Swiper**, and modern UI libraries like **Framer Motion** and **Lucide React**.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**
+- **Vite 6**
+- **Tailwind CSS**
+- **GSAP (GreenSock)**
+- **Swiper.js v11**
+- **Framer Motion**
+- **Lucide React**
+- **ESLint**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Folder Structure
+
+project-root/
+├── public/
+│ ├── img1.jpg
+│ ├── img2.jpg
+│ ├── img3.jpg
+│ ├── img4.jpg
+│ ├── img5.jpg
+│ ├── img6.jpg
+│ ├── img7.png
+│ └── favicon.ico
+│
+├── src/
+│ ├── components/
+│ │ ├── Landing.jsx
+│ │ ├── WhyOurProducts.jsx
+│ │ ├── BestSellingSlider.jsx
+│ │ ├── FeelBeautifulSection.jsx
+│ │ ├── ProductFilterShowcase.jsx
+│ │ ├── FaqProductSection.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+   
+---
+
+## 💡 Component Spotlight: `BestSellingSlider.jsx`
+
+A featured product slider using Swiper.js and GSAP animations.
+
+### Key Features:
+
+- 🌀 **GSAP** fade/slide entrance animation on scroll
+- 🧭 **Swiper** carousel with custom navigation buttons
+- 📱 **Responsive breakpoints** for mobile/tablet
+- 🎨 Built with **Tailwind CSS**
+
+
+# 1. Clone the repo
+git clone https://github.com/your-username/skincare-landing.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
+npm run dev
+
+📱 Responsive Support
+Tested for:
+
+✅ iPhone 16 Pro (custom width)
+
+✅ iPad Mini 8.3"
+
+✅ Desktop screen
