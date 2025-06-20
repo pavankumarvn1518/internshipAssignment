@@ -82,3 +82,7 @@ Tested for:
 ✅ iPad Mini 8.3"
 
 ✅ Desktop screen
+
+Deploy link :    https://internship-assignment-virid.vercel.app
+
+
